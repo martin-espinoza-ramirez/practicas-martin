@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    min-width: 1200px; /* Asegura el ancho mínimo de escritorio */
+}
+
+.contenedor-principal {
+    width: 1200px; /* Ancho de escritorio fijo */
+    margin: 0 auto; /* Centra el sitio web en pantallas enormes */
+    background-color: #ffffff;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* Reglas Flexbox para el contenedor */
+.contenedor-videos {
+    display: flex;                  
+    flex-direction: row;            
+    flex-wrap: nowrap;              /* Evita la vista móvil o saltos de línea */
+    justify-content: center;        /* Centra horizontalmente los videos en pantalla */
+    align-items: center;            
+    gap: 20px;                      /* Espacio de separación constante entre videos */
+    margin-top: 30px;
+}
